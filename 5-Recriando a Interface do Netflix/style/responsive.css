@@ -1,0 +1,20 @@
+@media screen and (max-width: 700px) {
+  /*edita as configurações das divs para adaptar o que acontece
+  na página com menos que 700px*/
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.botao {
+  margin-top: 5px;
+  width: 190px;
+  height: 60px;
+}
+
+@media screen and (min-width: 1000px) {
+  .descricao {
+    width: 50%;
+  }
+}
